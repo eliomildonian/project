@@ -10,7 +10,7 @@ let slideIndex = 1;
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-const mediaQuery = "screen and (max-width:450px)";
+const mediaQuery = "screen and (max-width:400px)";
   const mql = window.matchMedia(mediaQuery);
   let car = document.getElementsByClassName("carinformation");
 function showSlides(n) {
